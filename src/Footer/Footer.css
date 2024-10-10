@@ -1,0 +1,67 @@
+/* Footer.css */
+
+.footer {
+    background-color: black; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 40px 20px; /* Padding around the footer */
+    text-align: left; /* Align text to the left */
+    position: absolute;
+    margin-bottom: 100%;
+    width: 100%;
+
+  }
+  
+  .footer-content {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Allow wrapping of sections */
+  }
+  
+  .footer-section {
+    flex: 1; /* Allow each section to grow equally */
+    margin: 10px; /* Space between sections */
+    min-width: 200px; /* Minimum width for each section */
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 15px; /* Margin below heading */
+  }
+  
+  .footer-section p {
+    margin: 5px 0; /* Margin above and below paragraph */
+  }
+  
+  .footer-section ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0; /* Space between list items */
+  }
+  
+  .footer-section ul li a {
+    color: #fff; /* White link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .social-media {
+    margin-top: 10px; /* Space above social media links */
+  }
+  
+  .social-icon {
+    color: #fff; /* White icon color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 15px; /* Space between icons */
+  }
+  
+  .footer-bottom {
+    text-align: center; /* Center align footer bottom text */
+    margin-top: 20px; /* Space above footer bottom */
+    font-size: 14px; /* Font size */
+  }
+  
